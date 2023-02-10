@@ -58,6 +58,14 @@ body {
     transition: .3s;
 }
 
+.header.-sticky {
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    background: var(--bg-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+}
+
 .header__menu {
     z-index: 10001;
 
